@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #e2e8f0;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center ;
+    flex-flow: column wrap;
+    height: 90vh;
+    width: 50vw;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: #fecaca;
+    border: none;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #dc2626;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#increment-btn{
+    background-color: darkred;
+}
+
+#increment-btn:hover{
+    background-color: red;
+}
+
+#decrement-btn{
+    background-color: darkcyan;
+}
+
+#decrement-btn:hover{
+    background-color: blue;
+}
+
+#save-btn{
+    background-color: darkgreen;
+}
+
+#save-btn:hover{
+    background-color: green;
+}
+
+#reset-btn{
+    background-color: darkgoldenrod;
+}
+
+#reset-btn:hover{
+    background-color: darkorange;
+}
+
+#save-el{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #22d3ee;
+}
